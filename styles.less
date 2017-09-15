@@ -1,0 +1,24 @@
+// Increase Atom menu font size.
+@font-size: 14px;
+html, body, .tree-view, .tab-bar .tab {
+  font-size: @font-size;
+}
+
+// Set indent guide improved colors.
+.indent-guide-improved {
+  background-color: #202020;
+  &.indent-guide-stack {
+    background-color: #404040;
+    &.indent-guide-active {
+      background-color: #a0a0a0;
+    }
+  }
+}
+
+// Override the background and gutter colors for the Pubster theme.
+.theme-pubster-syntax atom-text-editor {
+  background-color: hsl(222, 11%, 0%);
+}
+.theme-pubster-syntax atom-text-editor.editor .gutter {
+    background-color: #070707;
+}

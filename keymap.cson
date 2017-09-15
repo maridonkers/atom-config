@@ -1,0 +1,18 @@
+'.editor':
+  'alt-down': 'editor:move-line-down'
+  'alt-up': 'editor:move-line-up'
+  'alt-delete': 'editor:delete-line'
+  'shift-alt-delete': 'editor:delete-to-end-of-subword'
+  'ctrl-alt-down': 'editor:duplicate-lines'
+  'ctrl-alt-up': 'editor:duplicate-lines'
+  'shift-alt-F': 'editor:auto-indent'
+
+'body':
+  'alt-shift-S': 'core:save-as'
+  'ctrl-shift-S': 'window:save-all'
+
+# Keymaps for Markdown Preview plus
+
+'atom-workspace, atom-workspace atom-text-editor':
+  'ctrl-shift-M': 'markdown-preview-plus:toggle'
+  'ctrl-shift-X': 'markdown-preview-plus:toggle-render-latex'

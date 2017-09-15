@@ -1,0 +1,10 @@
+/.apm
+/blob-store
+/compile-cache
+.node-gyp
+/nohup.out
+/packages
+/recovery
+/storage
+/package-deps-state.json
+/projects.cson
