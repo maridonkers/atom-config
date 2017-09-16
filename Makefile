@@ -1,3 +1,5 @@
+all: packages.list
+
 install-all-packages:
 	apm install --package-file packages.list
 
