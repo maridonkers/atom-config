@@ -37,6 +37,7 @@
   organized:
     levelStyle: "stacked"
   "php-integrator-autocomplete-plus": {}
+  "symbol-gen": {}
   "symbols-tree-nav":
     autoToggle: true
     defaultWidth: 350
