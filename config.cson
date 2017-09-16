@@ -29,7 +29,6 @@
     userId: "b0f9b203-f0bc-4390-bd48-43fb343a3488"
   "linter-ui-default":
     panelHeight: 300
-    showPanel: true
   minimap:
     plugins:
       "highlight-selected": true

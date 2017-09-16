@@ -1,7 +1,7 @@
 all: packages.list
 
 install-all-packages:
-	apm install --package-file packages.list
+	apm-beta install --package-file packages.list
 
 packages.list: packages/*/
-	apm list --installed --bare > packages.list
+	apm-beta list --installed --bare > packages.list
