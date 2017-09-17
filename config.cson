@@ -6,6 +6,7 @@
     disabledPackages: [
       "language-gfm"
       "markdown-preview"
+      "symbols-view"
     ]
     ignoredNames: [
       ".git"

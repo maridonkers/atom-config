@@ -6,8 +6,7 @@
   'ctrl-alt-down': 'editor:duplicate-lines'
   'ctrl-alt-up': 'editor:duplicate-lines'
   'shift-alt-F': 'editor:auto-indent'
-  'ctrl-{': 'symbols-view:go-to-declaration'
-  'ctrl-}': 'symbols-view:return-from-declaration'
+  'alt-.': 'goto:declaration'
 
 'body':
   'alt-shift-S': 'core:save-as'

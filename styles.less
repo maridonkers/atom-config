@@ -15,10 +15,18 @@ html, body, .tree-view, .tab-bar .tab {
   }
 }
 
-// Override the background and gutter colors for the Pubster theme.
+// Override the background and gutter colors for the Pubster theme (which has better Markdown support).
 .theme-pubster-syntax atom-text-editor {
   background-color: hsl(222, 11%, 0%);
 }
 .theme-pubster-syntax atom-text-editor.editor .gutter {
+    background-color: #070707;
+
+}
+// Override the background and gutter colors for the Monokai theme (which has limited Markdown support).
+.theme-monokai atom-text-editor {
+  background-color: hsl(222, 11%, 0%);
+}
+.theme-monokai atom-text-editor.editor .gutter {
     background-color: #070707;
 }
