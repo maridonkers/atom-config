@@ -8,12 +8,17 @@
   'shift-alt-F': 'editor:auto-indent'
   'alt-.': 'goto:declaration'
 
+# Last cursor position and last edit.
+'atom-workspace':
+  'alt-shift-pageup': 'goto-last-edit:back'
+  'alt-shift-pagedown': 'goto-last-edit:forward'
+
+# Save all as in muscle memory (from years of using Eclipse IDE).
 'body':
   'alt-shift-S': 'core:save-as'
   'ctrl-shift-S': 'window:save-all'
 
 # Keymaps for Markdown Preview plus
-
 'atom-workspace, atom-workspace atom-text-editor':
   'ctrl-shift-M': 'markdown-preview-plus:toggle'
   'ctrl-shift-X': 'markdown-preview-plus:toggle-render-latex'
