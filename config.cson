@@ -41,6 +41,8 @@
   "symbols-tree-nav":
     autoToggle: true
     defaultWidth: 350
+  "symbols-tree-view":
+    defaultWidth: 250
   welcome:
     showOnStartup: false
 ".basic.html.text":
