@@ -3,6 +3,7 @@
     general:
       _analyticsUserId: "40831444-9611-4437-8c87-cf2879387de1"
   core:
+    autoHideMenuBar: true
     disabledPackages: [
       "language-gfm"
       "markdown-preview"
